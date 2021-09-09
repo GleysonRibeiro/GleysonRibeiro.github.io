@@ -13,7 +13,7 @@ void preencheVetores(int V1[tam], int V2[tam]);
 
 int verificar(int V1[tam], int V2[tam], int x, int y);
 
-int main(void) {
+int main() {
   int x=1, y=1, V1[tam], V2[tam];
 
   preencheVetores(V1, V2);
