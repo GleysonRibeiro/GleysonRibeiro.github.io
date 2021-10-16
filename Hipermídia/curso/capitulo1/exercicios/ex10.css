@@ -1,0 +1,21 @@
+@charset"utf-8";
+
+a:link{
+    color: darkgreen;
+}
+
+a:visited{
+    color: maroon;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:checked{
+    color: blue;
+}
+
+li::before{
+    unicode-bidi: U+279D;
+}
