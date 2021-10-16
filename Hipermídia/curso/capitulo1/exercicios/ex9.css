@@ -1,0 +1,18 @@
+@charset"utf-8";
+
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagemprincipal{
+    background-image: url(https://images.tcdn.com.br/img/img_prod/491560/sal_grosso_azul_claro_100g_3412_1_20180308160645.jpg);
+}
+
+.artigos{
+    background-color: aqua;
+    text-align: center;
+}
+
+.paragrafos{
+    background-color: beige;
+}
