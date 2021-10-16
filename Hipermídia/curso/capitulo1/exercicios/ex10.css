@@ -17,5 +17,5 @@ a:checked{
 }
 
 li::before{
-    unicode-bidi: U+279D;
+    content: ">>>";
 }
