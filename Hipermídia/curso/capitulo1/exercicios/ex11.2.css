@@ -3,13 +3,14 @@
 .menu{
     list-style-type: nome;
     background-color: lightgray;
-    margin: 1px;
+    margin: 0px;
     padding: 10px;    
     width: fit-content;
 }
 
 .menu-li{
     display:grid;
+    
 }
 
 a:link{
@@ -19,5 +20,6 @@ a:link{
 
 a:hover{
     background-image: url(Sprite_g.jpg);
-    padding: 9px;
+    margin: 0px;
+    padding: 10px;
 }

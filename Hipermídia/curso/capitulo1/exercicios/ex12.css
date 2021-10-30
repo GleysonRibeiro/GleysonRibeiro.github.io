@@ -1,0 +1,65 @@
+@charset"utf-8";
+
+
+
+header{
+    background-color: grey;
+    color: white;
+    width: 100vw;
+    margin: 0px;
+    float: left;   
+}
+
+.menu-ul{
+    top: 0px;
+    left: 0px;
+    position: relative;
+    float: left;
+    clear: left;
+    list-style-type: nome;
+    margin: 1px;
+    padding: 10px;    
+    width: fit-content;
+    height: 100vh;
+    border: 1px;
+    border-color: white;
+    border-right-color: black; 
+    border-style: solid;
+ 
+}
+
+.menu-li{
+    display:grid;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 2px;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    background-image: url(Sprite_g.jpg);
+    padding: 9px;
+}
+
+
+
+#principal{
+    position: relative;
+    margin-left: 100px;
+    
+}
+
+footer{
+    position: relative;
+    float: left;
+    background-color: grey;
+    color: white;
+    width: 100vw;
+    height: 10vh;
+    margin: 0px; 
+}
+
