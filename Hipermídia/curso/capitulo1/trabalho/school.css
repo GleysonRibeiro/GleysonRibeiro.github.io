@@ -237,3 +237,13 @@ a:link{
     padding: 5px 2px 10px 2px;
 }
 
+.navegacao-rodape{
+    display: flex;
+    float: left;    
+}
+
+.texto-rodape{
+    display: flex;
+    float: right;
+    padding: 0px 20px 0px 0px;
+}
