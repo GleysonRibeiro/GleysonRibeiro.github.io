@@ -91,7 +91,6 @@ body{
 }
 
 .corpo.centro{
-    display: flex;
     float: left;
     width: 46vw;
 }
@@ -156,3 +155,28 @@ a:link{
     text-align: center;
 }
 
+.artigo{
+    width: 46vw;
+    border: 1px;
+    border-color: black;
+    border-style:solid;
+    background-color: rgb(184, 211, 184);
+    padding: 4px 4px 4px 4px;
+    margin: 4px 4px 4px 4px;    
+}
+.artigo-titulo{
+    display: flex;
+    float: left;
+    clear: left;
+}
+.artigo-texto{
+    clear: left;
+}
+
+.artigo-imagem{
+    display: flex;
+    float: left;
+    width: 20vw;
+    height: auto;
+    padding: 3px 3px 3px 3px;
+}
