@@ -64,7 +64,7 @@ body{
     border-color: white;
     border-right-color: black; 
     border-style: solid;
-    padding: 0px 20px 0px 20px;
+    padding: 5px 20px 5px 20px;
 }
 
 .menu-li{
@@ -121,7 +121,7 @@ body{
     border-color: black; 
     border-style: solid;
     margin: 10px 0px 10px 0px;
-    padding: 0px 5px 0px 5px;
+    padding: 8px 5px 8px 5px;
 }
 
 .populares{
@@ -135,7 +135,7 @@ body{
     float: left;
     clear: left;
     border: 1px;
-    border-color: black; 
+    border-color: green; 
     border-style: solid;
     padding: 2px 10px 2px 10px;
     width: 18vw;
@@ -179,4 +179,59 @@ a:link{
     width: 20vw;
     height: auto;
     padding: 3px 3px 3px 3px;
+}
+
+.spot{
+    display: flex;
+    float: left;
+    width: 22vw;
+    
+}
+
+.spot-imagem{
+    width: 26vw;
+    height: auto;
+    padding: 3px 3px 3px 3px;
+    position: absolute;
+}
+
+.spot-texto{
+    position: relative;
+    float: left;
+    margin: 100px 10px 10px 10px;
+    background-color: rgba(184, 211, 184, 0.5);
+    
+}
+
+.spot2{
+    display: flex;
+    float: left;
+    width: 26vw;
+    background-color: rgb(184, 211, 184);
+    margin: 20px 3px 20px 3px;
+    padding: 10px 2px 10px 2px;
+}
+
+
+.spot2-imagem{
+    display: flex;
+    float: left;
+    width: 13vw;
+    height: auto;
+    margin: 3px 3px 3px 3px;
+}
+
+.spot2-texto{
+    position: relative;
+    margin: 40px 1px 1px 7px;
+}
+
+.spot3{
+    display: flex;
+    float: left;
+    width: 26vw;
+    clear: left;
+    background-color: rgb(184, 211, 184);
+    margin: 20px 3px 20px 3px;
+    padding: 10px 2px 10px 2px;
 }
