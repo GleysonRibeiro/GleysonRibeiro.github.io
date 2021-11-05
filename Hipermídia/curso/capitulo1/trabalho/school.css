@@ -185,6 +185,7 @@ a:link{
     display: flex;
     float: left;
     width: 22vw;
+    padding: 0px 0px 50px 0px;
     
 }
 
@@ -208,7 +209,7 @@ a:link{
     float: left;
     width: 26vw;
     background-color: rgb(184, 211, 184);
-    margin: 20px 3px 20px 3px;
+    margin: 20px 3px 10px 3px;
     padding: 10px 2px 10px 2px;
 }
 
@@ -232,7 +233,7 @@ a:link{
     width: 26vw;
     clear: left;
     background-color: rgb(184, 211, 184);
-    margin: 20px 3px 20px 3px;
-    padding: 10px 2px 10px 2px;
+    margin: 10px 3px 20px 3px;
+    padding: 5px 2px 10px 2px;
 }
 
