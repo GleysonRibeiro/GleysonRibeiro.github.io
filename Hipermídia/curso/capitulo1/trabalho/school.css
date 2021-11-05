@@ -1,0 +1,158 @@
+@charset"utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px 20px 0px 20px;
+}
+
+.cabecalho{        
+    width: 95vw;
+    
+}
+
+.logo-resize{
+    display: flex;
+    float: left;
+    width: 380px;
+    height: auto;
+    margin: 20px 0px 0px 0px;
+}
+
+.navegacao{
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    
+}
+
+.find{
+    display: flex;
+    float: right;
+    
+    margin: 20px 20px 0px 0px;
+}
+
+.pesquisa{
+    display: flex;
+    float: right;
+    clear: right;
+    margin: 20px 0px 0px 0px;
+}
+
+.menu{
+    display: flex;
+    float: right;
+    clear: right;
+}
+
+.busca-avancada{
+    display: flex;
+    float: right;
+    clear: right;
+    margin: 00px 0px 20px 0px;
+}
+
+
+
+.navegacao-li{
+    display: inline;
+    border: 1px;
+    border-color: white;
+    border-right-color: black; 
+    border-style: solid;
+    padding: 0px 20px 0px 20px;
+}
+
+.menu-li{
+    display: inline;
+    border: 1px;
+    border-color: black; 
+    border-style: solid;
+    margin: 0px 5px 0px 5px;
+    padding: 0px 50px 0px 50px;
+    
+}
+
+.corpo{
+    width: 95vw;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    float: left;
+    clear: left;
+}
+
+.corpo-esquerda{
+    float: left;
+    width: 22vw;
+}
+
+.corpo.centro{
+    display: flex;
+    float: left;
+    width: 46vw;
+}
+
+.corpo.direita{
+    display: flex;
+    float: left;
+    width: 22vw;
+}
+
+.banner{
+    width: 20vw;
+    height: auto;
+}
+
+
+.menu-vertical{
+    display: flex;
+    float: left;
+    clear: left;
+    
+}
+
+.vertical-li{
+    width: 19vw;
+    list-style: none;    
+    border: 1px;
+    border-color: black; 
+    border-style: solid;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 5px 0px 5px;
+}
+
+.populares{
+    display: flex;
+    float: left;
+    clear: left;
+}
+
+.links-populares{
+    display: flex;
+    float: left;
+    clear: left;
+    border: 1px;
+    border-color: black; 
+    border-style: solid;
+    padding: 2px 10px 2px 10px;
+    width: 18vw;
+    background-color: rgb(184, 211, 184);
+
+}
+.links-li{ 
+    list-style:disc;   
+    
+    margin: 0px 10px 0px 10px;
+}
+
+
+a:link{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
