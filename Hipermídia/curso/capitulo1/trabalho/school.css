@@ -14,6 +14,47 @@ body{
     
 }
 
+.navegacao{
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    
+}
+
+.corpo{
+    width: 95vw;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    float: left;
+    clear: left;
+}
+
+.corpo-esquerda{
+    float: left;
+    width: 22vw;
+}
+
+.corpo.centro{
+    float: left;
+    width: 46vw;
+}
+
+.corpo.direita{
+    display: flex;
+    float: left;
+    width: 22vw;
+}
+
+.rodape{
+    width: 90vw;
+    border: 2px;
+    border-color: white;
+    border-top-color: black; 
+    border-style: solid;
+    float: left;
+    padding: 10px 0px 0px 5px;
+}
+
 .logo-resize{
     display: flex;
     float: left;
@@ -22,12 +63,7 @@ body{
     margin: 20px 0px 0px 0px;
 }
 
-.navegacao{
-    display: flex;
-    float: right;
-    margin-right: 20px;
-    
-}
+
 
 .find{
     display: flex;
@@ -77,29 +113,9 @@ body{
     
 }
 
-.corpo{
-    width: 95vw;
-    margin: 20px 0px 0px 0px;
-    display: flex;
-    float: left;
-    clear: left;
-}
 
-.corpo-esquerda{
-    float: left;
-    width: 22vw;
-}
 
-.corpo.centro{
-    float: left;
-    width: 46vw;
-}
 
-.corpo.direita{
-    display: flex;
-    float: left;
-    width: 22vw;
-}
 
 .banner{
     width: 20vw;
