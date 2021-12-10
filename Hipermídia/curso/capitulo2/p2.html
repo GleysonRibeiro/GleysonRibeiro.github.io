@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Locadora</title>
+</head>
+<body>
+    <form>
+        <script>
+            function calcular(){
+                var retirada, entrega, valor
+
+                retirada = document.getElementById('retirada').value
+                entrega = document.getElementById('entrega').value
+                valor= parseFloat(document.getElementById('tipo').value)
+
+                if(retirada!=entrega){
+                    valor+=300
+                }
+                                
+                document.writeln("O valor total da locação é: R$" + valor)
+            }
+
+        </script>
+        <fieldset>
+            <div>
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Telefone">
+            </div>
+            <br>            
+            <div>
+                <div>
+                    <label for="tpveiculo">Tipo de veículo</label>
+                    <select name="" id="tipo">
+                        <option value="119">Básico R$119,00</option>
+                        <option value="199">Básico R$199,00</option>
+                        <option value="299">Básico R$299,00</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="retirada">Cidade de retirada</label>
+                    <select name="" id="retirada">
+                        <option value="Campos dos Goytacazes - RJ">Campos dos Goytacazes - RJ</option>
+                        <option value="Rio de Janeiro - RJ">Rio de Janeiro - RJ</option>
+                        <option value="Vitória - ES">Vitória - ES</option>
+                    </select>
+                </div>            
+                <br>            
+                <div>
+                    <label for="entrega">Cidade de entrega</label>
+                    <select name="" id="entrega">
+                        <option value="Campos dos Goytacazes - RJ">Campos dos Goytacazes - RJ</option>
+                        <option value="Rio de Janeiro - RJ">Rio de Janeiro - RJ</option>
+                        <option value="Vitória - ES">Vitória - ES</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <label for="dataRetirada">Data de retirada</label>
+                    <input type="date" name="dataRetirada" id="dataRetirada">
+                </div>
+                
+                <br>
+                
+                <div>
+                    <label for="dataEntrega">Data de devolução</label>
+                    <input type="date" name="dataEntrega" id="dataEntrega">
+                </div>
+            </div>
+        </fieldset>
+        <br>
+        <button type="submit" onclick="calcular()">Enviar</button>
+        <br>
+        <div id="resultado">
+
+        </div>
+    </form>
+</body>
+</html>
