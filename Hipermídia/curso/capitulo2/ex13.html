@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade 13</title>
+        <h1>Verificar se a palavra é palíndromo.</h1>
+    </head>    
+    <body>
+        <header></header>
+        <main>
+            <script>
+                var palavra, palavra2
+                palavra = prompt ("Digite a palavra: ")      
+                palavra2=palavra.split('').reverse('').join('')                   
+                
+                if(palavra==palavra2){
+                    document.write("\nA palavra é palíndromo")
+                }
+                else{
+                    document.write("\nA palavra não é palíndromo")
+                }
+                                                     
+                
+                
+            </script>
+        </main>
+        <footer></footer>       
+    </body>
+</html>
